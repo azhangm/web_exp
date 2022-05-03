@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-image: url("../static/images/zmlogin.jpg");
+    /* 图片不重复 */
+    background-repeat: no-repeat;
+    /*设置背景图片初始位置*/
+    background-position: center;
+    /*图片在窗口内固定*/
+    background-attachment: fixed;
+    /*该背景图以它的全部宽或者高覆盖所在容器。当容器和背景图大小不同时，背景图的 左/右 或者 上/下 部分会被裁剪。*/
+    background-size: cover;
+}
+
+.zm_login{
+    opacity: 0.7;
+    /*border: thick double black;*/
+    background-color:cornflowerblue ;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    left: 40%;
+    top: 34%;
+}
+h3{
+    font-family: 宋体, sans-serif;
+    line-height: 30px;
+    text-align: center;
+}
+input[type="text"]{
+    border-radius: 9px;
+    width: 150px;
+    height: 20px;
+}
+input[type="password"]{
+    border-radius: 9px;
+    width: 150px;
+    height: 20px;
+}
+.dbutton{
+    width: 300px;
+    height: 50px;
+}
+#button1{
+    background-color: rgb(78,110,242);
+    width: 70px;
+    height: 30px;
+    color: white;
+    display: inline-block;
+}
+#button2{
+    background-color: rgb(78,110,242);
+    width: 70px;
+    height: 30px;
+    color: white;
+}
+span{
+    display: block;
+    margin-left: 20%;
+}
+a:hover{
+    color: brown;
+}
